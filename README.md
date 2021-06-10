@@ -17,26 +17,26 @@
 
 ## Ссылки:
 
-[презентация]()
+[Презентация]()
 
-[датасет для обучения, веса и конфигурацию](https://drive.google.com/drive/folders/1MhYcqAxOw5fUtqXMdgbhmbvfhfTNzBfF?usp=sharing)
+[Датасет для обучения, веса и конфигурацию](https://drive.google.com/drive/folders/1MhYcqAxOw5fUtqXMdgbhmbvfhfTNzBfF?usp=sharing)
 
 ## Инструкция по запуску:
-1. Для запуска, необходимо скачать [веса и конфигурацию](https://drive.google.com/drive/folders/1MhYcqAxOw5fUtqXMdgbhmbvfhfTNzBfF?usp=sharing) - aitextgen.tokenizer.json, trained_model
-3. Для генерации анекдотов, необходимо запустить anekdots.py
-    1. aitextgen.tokenizer.json и trained_model должны быть в одной папке с anekdots.py
+1. Для запуска, необходимо скачать [веса и конфигурацию](https://drive.google.com/drive/folders/1MhYcqAxOw5fUtqXMdgbhmbvfhfTNzBfF?usp=sharing) - `aitextgen.tokenizer.json`, `trained_model`
+3. Для генерации анекдотов, необходимо запустить `anekdots.py`
+    1. `aitextgen.tokenizer.json` и `trained_model` должны быть в одной папке с `anekdots.py`
     1. После запуска сразу будет сгенерирован текст.
     2. Чтобы еще сгенерировать текст, достаточно нажать Enter
     3. Можно ввести текст (слово, фразу, букву и т.д.) - начало для генерации текста
-4. Если необходимо заново обучить модель, нужно запустить train.py
-    1. Для этого необходимо поместить input.txt в одну папку с train.py
-    6. Запустить train.py
-6. Для создания тренировочного датасета нужно запустить parser.py (необходимо удалить или очистить input.txt)
+4. Если необходимо заново обучить модель, нужно запустить `train.py`
+    1. Для этого необходимо поместить `input.txt` в одну папку с `train.py`
+    6. Запустить `train.py`
+6. Для создания тренировочного датасета нужно запустить `parser.py` (необходимо удалить или очистить `input.txt`)
 
 ## Описание файлов
-* anekdots.py - генератор анекдотов. Использует веса trained_model и файл конфигурации aitextgen.tokenizer.json для работы
-* train.py - обучает модель. Использует input.txt
-* parser.py - скрипт для парсинга сайта с анекдотами. Создает файл input.txt и записывает в него анекдоты с сайта
-* input.txt - тренеровочный датасет. Содержит текст для обучения модели
-* aitextgen.tokenizer.json - файл конфигурации для генератора. Создается с помощью train.py
-* trained_model - директория с обученной моделью. Создается с помощью train.py
+* `anekdots.py` - генератор анекдотов. Использует веса trained_model и файл конфигурации `aitextgen.tokenizer.json` для работы
+* `train.py` - обучает модель. Использует `input.txt`
+* `parser.py` - скрипт для парсинга сайта с анекдотами. Создает файл `input.txt` и записывает в него анекдоты с сайта
+* `input.txt` - тренеровочный датасет. Содержит текст для обучения модели
+* `aitextgen.tokenizer.json` - файл конфигурации для генератора. Создается с помощью `train.py`
+* trained_model - директория с обученной моделью. Создается с помощью `train.py`
