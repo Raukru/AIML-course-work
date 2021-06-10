@@ -22,7 +22,7 @@
 [Датасет для обучения, веса и конфигурацию](https://drive.google.com/drive/folders/1MhYcqAxOw5fUtqXMdgbhmbvfhfTNzBfF?usp=sharing)
 
 ## Инструкция по запуску:
-1. Для запуска, необходимо скачать [веса и конфигурацию](https://drive.google.com/drive/folders/1MhYcqAxOw5fUtqXMdgbhmbvfhfTNzBfF?usp=sharing) - `aitextgen.tokenizer.json`, `trained_model`
+1. Для запуска, необходимо скачать [веса и конфигурацию](https://drive.google.com/drive/folders/1MhYcqAxOw5fUtqXMdgbhmbvfhfTNzBfF?usp=sharing) - `aitextgen.tokenizer.json`, trained_model
 3. Для генерации анекдотов, необходимо запустить `anekdots.py`
     1. `aitextgen.tokenizer.json` и `trained_model` должны быть в одной папке с `anekdots.py`
     1. После запуска сразу будет сгенерирован текст.
