@@ -1,6 +1,7 @@
 input.txt
 aitextgen.tokenizer.json
 trained_model/
+.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
