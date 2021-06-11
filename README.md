@@ -17,7 +17,7 @@
 
 ## Ссылки:
 
-[Презентация]()
+[Презентация](https://drive.google.com/file/d/1W_ND7W9LA4BdYfYBH-o__E-OWcojgAn9/view?usp=sharing)
 
 [Датасет для обучения, веса и конфигурацию](https://drive.google.com/drive/folders/1MhYcqAxOw5fUtqXMdgbhmbvfhfTNzBfF?usp=sharing)
 
