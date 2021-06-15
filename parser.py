@@ -25,7 +25,6 @@ URLS = [
     "https://www.anekdot.ru/release/aphorism/year/2002/",
     "https://www.anekdot.ru/release/aphorism/year/2001/",
     "https://www.anekdot.ru/release/aphorism/year/2000/"
-
 ]
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0', 'accept': '*/*'}
@@ -85,4 +84,4 @@ for anekdot in anekdots:
     anekdot = re.sub(r'\(c\) ?\S*', '', anekdot, flags=re.MULTILINE) # русские с
     anekdot = re.sub(r'\(C\) ?\S*', '', anekdot, flags=re.MULTILINE)  # русские с
 
-    f.write(anekdot+'\n\n')
+    f.write(anekdot+'\n')

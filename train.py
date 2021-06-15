@@ -15,7 +15,7 @@ if __name__ == '__main__':
     ai = aitextgen(tokenizer_file=tokenizer_file, config=config)
 
     print("\nToken Dataset")
-    data = TokenDataset(file_name, tokenizer_file=tokenizer_file, block_size=64)
+    data = TokenDataset(file_name, line_by_line=True, tokenizer_file=tokenizer_file, block_size=64)
 
     print("\nTrain")
     ai.train(data, batch_size=8, num_steps=100000, generate_every=5000, save_every=5000)
